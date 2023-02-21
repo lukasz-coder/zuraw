@@ -17,11 +17,12 @@ img{
 
 }
 body{
+     padding-top: 10px;
      display: flex;
      justify-content: center;
      align-items: center;
      overflow: hidden;
-   
+     height: 100vh;
 }
 html{
      padding: 0;
@@ -75,8 +76,9 @@ h1{
      border-radius: 20px;
      position: relative;/*umiejscowienie wzgledne */
      top: 10px;
-     backdrop-filter: blur(8px)
-     
+     backdrop-filter: blur(8px);
+     height: 67vh;
+           
 }
 
 @keyframes rotate{
