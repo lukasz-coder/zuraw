@@ -4,7 +4,7 @@
      font-family: Verdana, Geneva, Tahoma, sans-serif;
      
      box-sizing:border-box;
-     width: 100vw;
+     width: auto;
      height: auto;
      
      
@@ -64,6 +64,18 @@ h1{
      display: flex;
      justify-content: center;
      
+     
+}
+
+.container{
+    
+     
+     background: linear-gradient(to right top, rgba(20, 1, 1, 0.75), rgba(0, 0, 0, 0.25));
+     overflow: hidden;
+     border-radius: 20px;
+     position: relative;/*umiejscowienie wzgledne */
+     top: 10px;
+     backdrop-filter: blur(8px)
      
 }
 
